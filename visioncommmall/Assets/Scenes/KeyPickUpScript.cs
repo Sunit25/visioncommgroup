@@ -42,7 +42,7 @@ public class KeyPickUpScript : MonoBehaviour
 
     void Update()
     {
-        if (inReach && Input.GetButtonDown("Interact"))
+        if (inReach && Input.GetButtonDown("Get"))
         {
             keyOB.SetActive(false);
             invOB.SetActive(true);

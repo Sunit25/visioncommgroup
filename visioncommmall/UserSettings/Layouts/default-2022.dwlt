@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Inspector
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -215,8 +215,8 @@ MonoBehaviour:
     y: 0
     width: 883.2
     height: 427.2
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 14}
@@ -407,24 +407,24 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 1.0000001}
-      m_SelectedIDs: ae590000
-      m_LastClickedID: 22958
-      m_ExpandedIDs: 36fbffff6e59000098590000e0590000205a0000665a0000a45a0000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 5a590000
+      m_LastClickedID: 22874
+      m_ExpandedIDs: 38dcffff36fbffff6e59000098590000e0590000205a0000665a0000a45a0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Teddybear
-        m_OriginalName: Teddybear
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 22958
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -692,9 +692,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 3.2506084, y: 4.176771, z: -2.7246962}
+    m_Target: {x: 27.541515, y: 6.124394, z: -0.79999924}
     speed: 2
-    m_Value: {x: 3.2506084, y: 4.176771, z: -2.7246962}
+    m_Value: {x: 27.541515, y: 6.124394, z: -0.79999924}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -740,13 +740,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.05278149, y: -0.6770465, z: 0.0489, w: 0.7324957}
+    m_Target: {x: 0.10922188, y: -0.03635432, z: 0.004071251, w: 0.99340487}
     speed: 2
-    m_Value: {x: 0.05277835, y: -0.6770062, z: 0.04889709, w: 0.73245215}
+    m_Value: {x: 0.10921528, y: -0.03635212, z: 0.004071005, w: 0.99334484}
   m_Size:
-    m_Target: 0.98792666
+    m_Target: 1.6004504
     speed: 2
-    m_Value: 0.98792666
+    m_Value: 1.6004504
   m_Ortho:
     m_Target: 0
     speed: 2
