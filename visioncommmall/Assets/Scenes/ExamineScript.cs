@@ -7,7 +7,7 @@ public class ExamineScript : MonoBehaviour
     public GameObject mainCamera;
     public GameObject examineCamera;
     public GameObject Hud;
-    public Behaviour player;
+    public GameObject player;
 
     public GameObject InteractText;
     public GameObject ExamineUI;
@@ -64,6 +64,7 @@ public class ExamineScript : MonoBehaviour
             ExamineObject.SetActive(true);
             aboutText.SetActive(true);
             Time.timeScale = 0;
+		player.SetActive(false);
         }
 
         if (isExaming == true && Input.GetMouseButton(0))
@@ -84,19 +85,7 @@ public class ExamineScript : MonoBehaviour
             ExamineObject.SetActive(false);
             aboutText.SetActive(false);
             Time.timeScale = 1;
-        }
-
-        if (isExaming == true && Input.GetMouseButton(1))
-        {
-            examineCamera.SetActive(false);
-            mainCamera.SetActive(true);
-            isExaming = false;
-            ExamineUI.SetActive(false);
-            Hud.SetActive(true);
-            ExamineObject.SetActive(false);
-            keyOB.SetActive(false);
-            aboutText.SetActive(false);
-            Time.timeScale = 1;
+		player.SetActive(true);
         }
     }
 }
